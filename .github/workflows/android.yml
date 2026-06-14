@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Unzip Omni AI project
-        run: unzip -o omniai (1).zip
+        run: unzip -o "omniai (1).zip"
 
       - uses: actions/setup-java@v4
         with:
